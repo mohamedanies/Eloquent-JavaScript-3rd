@@ -52,7 +52,7 @@ function rangeWithStep(start, end, step = 1){
         console.log("step value can't be greater than the end");
     }
 
-    }
+}
     
 console.log(rangeWithStep(10,1,2));
 

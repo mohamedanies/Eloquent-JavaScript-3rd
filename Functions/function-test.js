@@ -1,6 +1,6 @@
  const power = function(base, exponent){
        let result = 1;
-       for(let count=0; count < exponent; count++){
+       for(let count = 0; count < exponent; count++){
           result *=base;
         }
         return result;
@@ -57,7 +57,7 @@ function add(a,b,c){
     return a+b+c;
   }
   else{
-    return("cant add number to undefined it results NaN");
+    return("can't add number to undefined it results NaN");
   }
   
 }

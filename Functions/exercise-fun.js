@@ -71,7 +71,7 @@ function isEven(number) {
               count++;
           }
       }
-      console.log(`the number of ${ch} in the word is : ${count}`);
+      console.log(`the number of ${ch}'s in the word is : `, count);
       countBs(word);
   }
 countChar("Ali  B Ahmed B AAAA", "A");

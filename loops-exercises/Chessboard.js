@@ -1,16 +1,19 @@
 let gridSize = 8;
 let shape = "";
+
 for(let x = 0; x < gridSize; x +=1){
     for(let y = 0; y < gridSize; y +=1){
         if((x+y) % 2 == 0){
-            shape +=" ";
+            shape +=`  `;
         }
         else{
-            shape +="#";
+            shape +="(0_0)";
         }
         
     }
-    shape += "\n";
+   shape += ` \n`;
+   
+   
     
 }
 console.log(shape);
